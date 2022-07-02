@@ -1,7 +1,6 @@
 <script setup lang="ts">
   import { RouterLink, RouterView } from 'vue-router'
-  import HelloWorld from '@/components/HelloWorld.vue'
-  import CustomTypesVue from './components/CustomTypes.vue'
+  // import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
@@ -15,12 +14,13 @@
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <!-- <HelloWorld msg="You did it!" /> -->
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/github">github</RouterLink>
+        <RouterLink to="/grid">grid</RouterLink>
       </nav>
     </div>
   </header>

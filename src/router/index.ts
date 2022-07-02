@@ -20,10 +20,12 @@ const router = createRouter({
     {
       path: '/github',
       name: 'github',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../components/GithubComponent.vue'),
+    },
+    {
+      path: '/grid',
+      name: 'grid',
+      component: () => import('../views/GridView.vue'),
     },
   ],
 })
