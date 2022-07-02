@@ -1,6 +1,7 @@
 <!--
 This example fetches latest Vue.js commits data from GitHub’s API and displays them as a list.
 You can switch between the two branches.
+source: https://vuejs.org/examples/#fetching-data
 -->
 
 <script setup lang="ts">
