@@ -21,6 +21,7 @@
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/github">github</RouterLink>
         <RouterLink to="/grid">grid</RouterLink>
+        <RouterLink to="/tree">tree</RouterLink>
       </nav>
     </div>
   </header>
