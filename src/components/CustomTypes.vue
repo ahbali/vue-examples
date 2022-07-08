@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts">
   export interface Author {
     name: string
     email: string
@@ -91,5 +91,10 @@
     author: Author2
     committer: Committer2
     parents: Parent[]
+  }
+
+  export interface Stat {
+    label: string
+    value: number
   }
 </script>

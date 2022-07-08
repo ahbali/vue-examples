@@ -22,6 +22,7 @@
         <RouterLink to="/github">github</RouterLink>
         <RouterLink to="/grid">grid</RouterLink>
         <RouterLink to="/tree">tree</RouterLink>
+        <RouterLink to="/svg">svg</RouterLink>
       </nav>
     </div>
   </header>
