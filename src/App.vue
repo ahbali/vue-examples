@@ -24,6 +24,7 @@
         <RouterLink to="/tree">Tree</RouterLink>
         <RouterLink to="/svg">SVG</RouterLink>
         <RouterLink to="/modal">Modal</RouterLink>
+        <RouterLink to="/list">List</RouterLink>
       </nav>
     </div>
   </header>
