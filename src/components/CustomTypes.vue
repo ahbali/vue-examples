@@ -97,4 +97,12 @@
     label: string
     value: number
   }
+
+  // we need the "any" type to make this component reusable.
+  export type anyObject = { [k: string]: any }
+
+  export interface MyTree {
+    name: string
+    children?: Array<MyTree>
+  }
 </script>

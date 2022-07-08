@@ -6,7 +6,8 @@ original implementation in js: https://vuejs.org/examples/#tree
 
 <script setup lang="ts">
   import { ref, type Ref } from 'vue'
-  import TreeComponentVue, { type MyTree } from '@/components/TreeComponent.vue'
+  import TreeComponentVue from '@/components/TreeComponent.vue'
+  import type { MyTree } from '@/components/CustomTypes.vue'
 
   const treeData: Ref<MyTree> = ref({
     name: 'My Tree',

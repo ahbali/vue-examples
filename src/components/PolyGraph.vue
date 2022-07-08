@@ -2,7 +2,7 @@
   import AxisLabel from '@/components/AxisLabel.vue'
   import { computed } from 'vue'
   import { valueToPoint } from '@/components/utils.vue'
-  import type { Stat } from './CustomTypes.vue'
+  import type { Stat } from '@/components/CustomTypes.vue'
 
   const props = defineProps<{
     stats: Array<Stat>

@@ -6,7 +6,7 @@ source: https://vuejs.org/examples/#fetching-data
 
 <script setup lang="ts">
   import { ref, watchEffect, type Ref } from 'vue'
-  import type { RootCommit } from './CustomTypes.vue'
+  import type { RootCommit } from '@/components/CustomTypes.vue'
 
   const API_URL = `https://api.github.com/repos/vuejs/core/commits?per_page=5&sha=`
   const branches = ['main', 'v2-compat']

@@ -1,8 +1,7 @@
 <!-- https://vuejs.org/examples/#grid -->
 <script setup lang="ts">
   import { ref, computed } from 'vue'
-  // we need the "any" type to make this component reusable.
-  type anyObject = { [k: string]: any }
+  import type { anyObject } from '@/components/CustomTypes.vue'
 
   const props = defineProps<{
     data: Array<anyObject>

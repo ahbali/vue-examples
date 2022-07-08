@@ -1,10 +1,6 @@
 <script setup lang="ts">
   import { ref, computed } from 'vue'
-
-  export interface MyTree {
-    name: string
-    children?: Array<MyTree>
-  }
+  import type { MyTree } from '@/components/CustomTypes.vue'
 
   const props = defineProps<{
     model: MyTree
