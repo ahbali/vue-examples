@@ -19,10 +19,11 @@
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/github">github</RouterLink>
-        <RouterLink to="/grid">grid</RouterLink>
-        <RouterLink to="/tree">tree</RouterLink>
-        <RouterLink to="/svg">svg</RouterLink>
+        <RouterLink to="/github">Github</RouterLink>
+        <RouterLink to="/grid">Grid</RouterLink>
+        <RouterLink to="/tree">Tree</RouterLink>
+        <RouterLink to="/svg">SVG</RouterLink>
+        <RouterLink to="/modal">Modal</RouterLink>
       </nav>
     </div>
   </header>

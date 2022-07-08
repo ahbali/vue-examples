@@ -37,6 +37,11 @@ const router = createRouter({
       name: 'svg',
       component: () => import('@/views/SvgView.vue'),
     },
+    {
+      path: '/modal',
+      name: 'modal',
+      component: () => import('@/views/ModalView.vue'),
+    },
   ],
 })
 
