@@ -25,6 +25,7 @@
         <RouterLink to="/svg">SVG</RouterLink>
         <RouterLink to="/modal">Modal</RouterLink>
         <RouterLink to="/list">List</RouterLink>
+        <RouterLink :to="{ name: 'todo' }">ToDo</RouterLink>
       </nav>
     </div>
   </header>
