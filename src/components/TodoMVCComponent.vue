@@ -7,14 +7,7 @@ https://todomvc.com/
 <script setup lang="ts">
   import router from '@/router'
   import { ref, computed, watchEffect, watch, type Ref, nextTick } from 'vue'
-
-  export interface Todo {
-    id: number
-    title: string
-    completed: boolean
-  }
-
-  export type Todos = Array<Todo>
+  import type { Todo, Todos } from '@/components/CustomTypes.vue'
 
   enum States {
     all = 'all',
